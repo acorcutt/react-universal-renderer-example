@@ -7,7 +7,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/acorcutt/react-universal-renderer-example.git"
-  },  
+  },
   "scripts": {
     "start": "npm run watch:server & npm run watch:build",
     "watch:server": "nodemon --watch package.json --watch source --exec npm run server",
@@ -23,7 +23,8 @@
     "isomorphic-fetch": "^2.2.1",
     "react": "^15.0.1",
     "react-dom": "^15.0.1",
-    "react-helmet": "^3.1.0"
+    "react-helmet": "^3.1.0",
+    "react-universal-renderer": "0.0.9"
   },
   "devDependencies": {
     "babel-cli": "^6.6.4",
